@@ -1,4 +1,4 @@
-FROM nvida/cuda:8.0-cudnn5-devel-ubuntu14.04
+FROM nvidia/cuda:10.0-base-ubuntu16.04
 
 MAINTAINER Jho Lee <jho.lee@kakao.com>
 

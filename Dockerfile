@@ -105,8 +105,7 @@ RUN apt-get update && apt-get install -y \
 	apt-get autoremove && \
 	rm -rf /var/lib/apt/lists/*
 
-RUN pip --no-cache-dir install --upgrade ipython && \
-	pip --no-cache-dir install \
+RUN pip --no-cache-dir install \
 		Cython \
 		ipykernel \
 		jupyter \
